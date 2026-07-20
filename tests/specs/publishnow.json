@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/publishnow",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Сразу сгенерировать и опубликовать пост"
+            }
+          }
+        ],
+        "send": {
+          "text": "/publishnow"
+        }
+      }
+    ]
+  }
+]
