@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/addphrase",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Добавить новую фразу в библиотеку"
+            }
+          }
+        ],
+        "send": {
+          "text": "/addphrase"
+        }
+      }
+    ]
+  }
+]
